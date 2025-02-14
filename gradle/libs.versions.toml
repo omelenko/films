@@ -1,0 +1,36 @@
+[versions]
+agp = "8.7.3"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+lifecycleViewmodel = "2.4.1"
+activity = "1.9.0"
+constraintlayout = "2.2.0"
+dagger = "2.55"
+databindingRuntime = "8.8.0"
+junitJupiter = "5.8.1"
+pagingRuntime = "3.3.5"
+pagingRxjava3 = "3.3.5"
+
+[libraries]
+dagger = {module = "com.google.dagger:dagger", version.ref = "dagger"}
+dagger-compiler = { module = "com.google.dagger:dagger-compiler", version.ref = "dagger" }
+lifecycle-livedata = { module = "androidx.lifecycle:lifecycle-livedata", version.ref = "lifecycleViewmodel" }
+lifecycle-viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel", version.ref = "lifecycleViewmodel" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+databinding-runtime = { group = "androidx.databinding", name = "databinding-runtime", version.ref = "databindingRuntime" }
+junit-jupiter = { group = "org.junit.jupiter", name = "junit-jupiter", version.ref = "junitJupiter" }
+paging-runtime = { module = "androidx.paging:paging-runtime-ktx", version.ref = "pagingRuntime" }
+paging-rxjava3 = { group = "androidx.paging", name = "paging-rxjava3", version.ref = "pagingRxjava3" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+

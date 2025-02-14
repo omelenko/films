@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">films</string>
+    <string name="title">Список фільмів</string>
+    <string name="film_title">Назва:</string>
+    <string name="film_director">Режисер:</string>
+    <string name="film_genre">Жанр:</string>
+    <string name="film_release_year">Рік випуску:</string>
+    <string name="film_rating">Рейтинг:</string>
+    <string name="retry">Повторити спробу</string>
+</resources>
