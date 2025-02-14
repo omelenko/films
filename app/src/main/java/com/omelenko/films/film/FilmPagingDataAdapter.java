@@ -8,7 +8,6 @@ import androidx.databinding.DataBindingUtil;
 import androidx.paging.PagingDataAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.omelenko.films.App;
 import com.omelenko.films.R;
 import com.omelenko.films.databinding.ListViewBinding;
 import com.omelenko.films.viewmodel.ListViewModel;

@@ -1,9 +1,5 @@
 package com.omelenko.films.viewmodel;
 
-import android.app.Application;
-
-import androidx.annotation.NonNull;
-import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelKt;
 import androidx.paging.Pager;
@@ -13,9 +9,6 @@ import androidx.paging.rxjava3.PagingRx;
 
 import com.omelenko.films.film.Film;
 import com.omelenko.films.film.FilmPagingSource;
-import com.omelenko.films.film.FilmRepository;
-
-import javax.inject.Inject;
 
 import io.reactivex.rxjava3.core.Flowable;
 import kotlinx.coroutines.CoroutineScope;

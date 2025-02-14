@@ -1,15 +1,7 @@
 package com.omelenko.films.film;
 
-import androidx.paging.LoadStateAdapter;
-import androidx.paging.PagingSource;
-
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
-
-import io.reactivex.rxjava3.annotations.NonNull;
-import io.reactivex.rxjava3.core.Single;
-import io.reactivex.rxjava3.core.SingleObserver;
 
 public class FilmRepositoryImpl implements FilmRepository {
     List<Film> films;

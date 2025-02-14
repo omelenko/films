@@ -1,10 +1,7 @@
 package com.omelenko.films.film;
 
-import static java.lang.Integer.min;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.paging.PagingSource;
 import androidx.paging.PagingState;
 import androidx.paging.rxjava3.RxPagingSource;
 
@@ -15,7 +12,6 @@ import java.util.List;
 import javax.inject.Inject;
 
 import io.reactivex.rxjava3.core.Single;
-import kotlin.coroutines.Continuation;
 
 public class FilmPagingSource extends RxPagingSource<Integer, Film> {
 

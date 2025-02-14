@@ -11,8 +11,6 @@ import com.omelenko.films.film.FilmComparator;
 import com.omelenko.films.film.FilmPagingDataAdapter;
 import com.omelenko.films.viewmodel.ListViewModel;
 
-import javax.inject.Inject;
-
 public class MainActivity extends AppCompatActivity {
 
     static ListViewModel viewModel;
